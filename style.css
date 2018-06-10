@@ -104,10 +104,7 @@ a:hover {
 	font-size:2em;
 }
 
-/*.code {
-	font-family: 'Roboto Mono', monospace;
-	background-color: grey;
-}*/
+
 
 #projects {
 	 text-shadow: 0 .02rem .1rem rgba(0, 0, 0, .3);
@@ -124,7 +121,7 @@ a:hover {
 
 
 #return-to-top {
-	z-index: 1;
+	z-index: 100;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -138,24 +135,17 @@ a:hover {
     -moz-border-radius: 35px;
     border-radius: 35px;
     display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  
+
+
 }
 #return-to-top i {
     color: #fff;
-    margin: 0;
     position: relative;
     left: 0.3em;
     top: 0.5em;
     font-size: 2em;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  
 }
 #return-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
