@@ -9,10 +9,15 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,700,900" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="style.css">
 		
 	</head>
 	<body>
+		<a href="javascript:" id="return-to-top" data-toggle="tooltip" data-placement="left" title="Go to top"><i class="fas fa-chevron-circle-up" id="arrow"></i></a>
 		<div class="container">
 			<!-- NAVBAR START -->
 			<div class="container" id="sknavbar">
@@ -50,8 +55,43 @@
 			<div class="container" id="projects">
 				<h3 class="text-center"> Academic and Independent projects </h3>
 				<hr id="hr-code">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-md-6 col-sm-6">
+							<a href="#major"><h4 class="text-center">Major Projects</h4></a>
+							<h5><ul>
+								<li>Airbnb New User Booking prediction</li>
+								<li>Pacman Artificial Intelligence</li>
+								<li>Theater Management and Reservation System</li>
+								<li>BraiNet: App to unlock phone using EEG signals</li>
+								<li>Capture the Flag(CTF) Software Security Model</li>
+								<li>Stuttered Speech Recognition</li>
+							</ul></h5>
+						</div>
+						
+						<div class="col-md-6 col-sm-6">
+							<h4 class="text-center">Other Projects</h4>
+							<ul>
+								<li>Activity Determining Android App</li>
+								<li>Real Time Accelerometer Plotting</li>
+								<li>Ubuntu Daily Wallpaper changer</li>
+								<li>Ubuntu cryptocurrency ticker</li>
+								<li>IP Packet Reflector</li>
+								<li>Digit recognition using Matlab</li>
+								<li>Polygone - Internet of Things</li>
+								<li>Web Development: RNR</li>
+								<li>Home Automation System</li>
+								<li>Game Development using Unreal Engine 4</li>
+								<li>Game Development using Unreal Development Kit</li>
+								<li>Propeller Clock</li>
+								<li>Notifier and Connectifier</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 				<!-- PROJECT BEGINS-->
-				<div class="row">
+				<div class="row" id="major">
 					<div class="col-md-4 col-sm-12">
 						
 						<div class ="container text-right">
@@ -109,7 +149,6 @@
 				</div>
 				<hr id="hr-code">
 				<!-- PROJECT ENDS -->
-
 				<!-- PROJECT BEGINS-->
 				<div class="row">
 					<div class="col-md-4 col-sm-12">
@@ -137,7 +176,6 @@
 				</div>
 				<hr id="hr-code">
 				<!-- PROJECT ENDS -->
-
 				<!-- PROJECT BEGINS-->
 				<div class="row">
 					<div class="col-md-4 col-sm-12">
@@ -165,7 +203,6 @@
 				</div>
 				<hr id="hr-code">
 				<!-- PROJECT ENDS -->
-
 				<!-- PROJECT BEGINS-->
 				<div class="row">
 					<div class="col-md-4 col-sm-12">
@@ -193,7 +230,6 @@
 				</div>
 				<hr id="hr-code">
 				<!-- PROJECT ENDS -->
-
 				<!-- PROJECT BEGINS-->
 				<div class="row">
 					<div class="col-md-4 col-sm-12">
@@ -222,7 +258,6 @@
 				</div>
 				<hr id="hr-code">
 				<!-- PROJECT ENDS -->
-
 				<!-- PROJECT BEGINS-->
 				<div class="row">
 					<div class="col-md-4 col-sm-12">
@@ -250,7 +285,6 @@
 				</div>
 				<hr id="hr-code">
 				<!-- PROJECT ENDS -->
-
 				<!-- PROJECT BEGINS-->
 				<div class="row">
 					<div class="col-md-4 col-sm-12">
@@ -265,7 +299,7 @@
 					<div class="col-md-8 col-sm-12">
 						<div class ="container text-left">
 							<h5><strong>IP Packet Reflector</strong></h5>
-							<h7>Built an IP packet reflector that will reflect all the packets being sent to a particular IP (the victim) back to the attacker, thus acting like a mirror. 
+							<h7>Built an IP packet reflector that will reflect all the packets being sent to a particular IP (the victim) back to the attacker, thus acting like a mirror.
 							
 							<ul>
 								<li>Used the python Scapy library to listen for the attacks and to reflect the packets back to the attacker.</li>
@@ -304,8 +338,28 @@
 		
 	</div>
 	
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script>
+		$(window).scroll(function() {
+	if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+	$('#return-to-top').fadeIn(200);    // Fade in the arrow
+	} else {
+	$('#return-to-top').fadeOut(200);   // Else fade out the arrow
+	}
+	});
+	$('#return-to-top').click(function() {      // When arrow is clicked
+	$('body,html').animate({
+	scrollTop : 0                       // Scroll to top of body
+	}, 500);
+	});
+	</script>
+	<script>
+		$(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+	})
+	</script>
 </body>
 </html>
