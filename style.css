@@ -15,8 +15,8 @@ body {
   /*display: -ms-flexbox;*/
   /*display: flex;*/
   /*color: #fff;*/
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 3rem rgba(0, 0, 0, .4);
+  text-shadow: 0 .02rem .1rem rgba(0, 0, 0, .3);
+  box-shadow: inset 0 0 3rem rgba(0, 0, 0, .3);
 }
 
 
@@ -102,4 +102,22 @@ a:hover {
 
 #footer-icons{
 	font-size:2em;
+}
+
+/*.code {
+	font-family: 'Roboto Mono', monospace;
+	background-color: grey;
+}*/
+
+#projects {
+	 text-shadow: 0 .02rem .1rem rgba(0, 0, 0, .3);
+}
+
+#hr-code {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top:1%;
+    margin-bottom: 1%;
 }
