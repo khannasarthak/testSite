@@ -17,10 +17,8 @@
 		
 	</head>
 	<body>
-
 		<!-- GO TO TOP BUTTON -->
 		<a href="javascript:" id="return-to-top" data-toggle="tooltip" data-placement="left" title="Go to top"><i class="fas fa-chevron-circle-up" id="arrow"></i></a>
-
 		
 		<div class="container">
 			<!-- NAVBAR START -->
@@ -62,38 +60,24 @@
 				<div class="container">
 					<div class="row">
 						
-						<div class="col-md-6 col-sm-6">
-							<a href="#major"><h4 class="text-center">Major Projects</h4></a>
+						<div class="col-md-12 col-sm-12">
+							<a href="#major"><h4 class="text-left"><strong>Major Projects</strong></h4></a>
+							
 							<h5><ul>
-								<li>Airbnb New User Booking prediction</li>
-								<li>Pacman Artificial Intelligence</li>
-								<li>Theater Management and Reservation System</li>
-								<li>BraiNet: App to unlock phone using EEG signals</li>
-								<li>Capture the Flag(CTF) Software Security Model</li>
-								<li>Stuttered Speech Recognition</li>
+								<li><a href="#brainet">BraiNet: App to unlock phone using EEG signals</a></li>
+								<li><a href="#airbnb">Airbnb New User Booking prediction</a></li>
+								<li><a href="#pacman">Pacman Artificial Intelligence</a></li>
+								<li><a href="#theater">Theater Management and Reservation System</a></li>
+								<li><a href="#ctf">Capture the Flag(CTF) Software Security Model</a></li>
+								<li><a href="#speech">Stuttered Speech Recognition</a></li>
+								<li><a href="#other">Other projects</a></li>
 							</ul></h5>
+							
 						</div>
 						
-						<div class="col-md-6 col-sm-6">
-							<h4 class="text-center">Other Projects</h4>
-							<ul>
-								<li>Activity Determining Android App</li>
-								<li>Real Time Accelerometer Plotting</li>
-								<li>Ubuntu Daily Wallpaper changer</li>
-								<li>Ubuntu cryptocurrency ticker</li>
-								<li>IP Packet Reflector</li>
-								<li>Digit recognition using Matlab</li>
-								<li>Polygone - Internet of Things</li>
-								<li>Web Development: RNR</li>
-								<li>Home Automation System</li>
-								<li>Game Development using Unreal Engine 4</li>
-								<li>Game Development using Unreal Development Kit</li>
-								<li>Propeller Clock</li>
-								<li>Notifier and Connectifier</li>
-							</ul>
-						</div>
 					</div>
 				</div>
+				<hr id="hr-code">
 				<!-- PROJECT BEGINS-->
 				<div class="row" id="major">
 					<div class="col-md-4 col-sm-12">
@@ -107,7 +91,7 @@
 					
 					<div class="col-md-8 col-sm-12">
 						<div class ="container text-left">
-							<h5><strong>BraiNet: App to unlock phone using EEG signals</strong></h5>
+							<h5 id="brainet"><strong>BraiNet: App to unlock phone using EEG signals</strong></h5>
 							<h7>An android app to authenticate users based on their brain EEG signals.
 							
 							<ul>
@@ -123,8 +107,36 @@
 				</div>
 				<hr id="hr-code">
 				<!-- PROJECT ENDS -->
-
-
+				<!-- PROJECT BEGINS-->
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						
+						<div class ="container text-right">
+							<h5>Nov 2016</h5>
+							<h6>Technologies:</h6> <code>Python, scikit-learn, Numpy, Pandas, matplotlib</code>
+							<br><a href="https://github.com/khannasarthak/Airbnb-sml" target="blank">Code Repository : <i class="fab fa-github"></i></a>
+						</div>
+					</div>
+					
+					<div class="col-md-8 col-sm-12">
+						<div class ="container text-left">
+							<h5 id="airbnb"><strong>Airbnb New User Booking prediction</strong></h5>
+							<h7>A classification model which predicts to which country a new user will make their first booking.
+							<ul>
+								
+								<li>Performed feature engineering and statistical analysis of the data obtaining relevant insights using scikit-learn.</li>
+								<li>Implemented traditional classifiers (KNN, SVM, Logistic Regression) and observed their accuracy.</li>
+								<li>Programmed a blended ensemble of traditional classifiers  to enhance performance of the model and compared this with traditional classifiers and XGBoost classifier.</li>
+								
+								
+							</ul> </h7>
+							
+						</div>
+					</div>
+				</div>
+				<hr id="hr-code">
+				<!-- PROJECT ENDS -->
+				
 				<!-- PROJECT BEGINS-->
 				<div class="row">
 					<div class="col-md-4 col-sm-12">
@@ -138,16 +150,16 @@
 					
 					<div class="col-md-8 col-sm-12">
 						<div class ="container text-left">
-							<h5><strong>Artificial Intelligence : Pacman AI projects</strong></h5>
-							<h7>Implementation of UC Berkley's Artificial Inteligence class projcets
+							<h5 id="pacman"><strong>Artificial Intelligence : Pacman AI projects</strong></h5>
+							<h7>Implementation of UC Berkley's Artificial Inteligence class projects.
 							
 							<ul>
-								<li>Implemented search algorithms like DFS, BFS, UCS and A star to find the optimal path for Pacman.</li>
-								<li>Programmed adversarial search algorithms like Expectimax, min-max and Alpha Beta pruning for maximizing reward (including the ghosts). </li>
+								<li>Programmed search algorithms like DFS, BFS, UCS and A star to find the optimal path for Pacman.</li>
+								<li>Performed adversarial search algorithms like Expectimax, min-max and Alpha Beta pruning for maximizing reward (including the ghosts). </li>
 								<li>Trained Pacman to choose optimal policy in supervised and unsupervised settings.</li>
 								<li> Implemented Reinforcement Learning algorithms such as value iteration and Q-learning</li>
 								
-							</ul> </h7>						
+							</ul> </h7>
 							
 						</div>
 					</div>
@@ -159,6 +171,121 @@
 					<div class="col-md-4 col-sm-12">
 						
 						<div class ="container text-right">
+							<h5>Apr – May 2017</h5>
+							<h6>Technologies:</h6> <code>Python, Flask, MySQL, Faker, Bootstrap, HTML5, CSS3</code>
+							<br><a href="https://github.com/khannasarthak/DMProject-SK" target="blank">Code Repository : <i class="fab fa-github"></i></a>
+						</div>
+					</div>
+					
+					<div class="col-md-8 col-sm-12">
+						<div class ="container text-left">
+							<h5 id="theater"><strong>Theater Management and Reservation System</strong></h5>
+							<h7>A web application to facilitate booking and ticketing of various screens in a theater complex.
+							
+							<ul>
+								<li>Implemented a management system performing CRUD operations for a multi-screen theater complex.</li>
+								<li>Developed the application with a management portal for organizers (or administrators), and a ticketing interface for the customers.</li>
+								<li>Used indexes and triggers in the relational database; populated database with random data using Faker.</li>
+								
+							</ul> </h7>
+							
+							
+						</div>
+					</div>
+				</div>
+				<hr id="hr-code">
+				<!-- PROJECT ENDS -->
+				
+				<!-- PROJECT BEGINS-->
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						
+						<div class ="container text-right">
+							<h5>April 2017</h5>
+							<h6>Technologies:</h6> <code>Python, PHP, HTML5, JavaScript, MySQL, C</code>
+							<br><em>Code unavailable due to academic restrictions</em>
+							
+						</div>
+					</div>
+					
+					<div class="col-md-8 col-sm-12">
+						<div class ="container text-left">
+							<h5 id="ctf"><strong>Capture the Flag(CTF) Software Security Model</strong></h5>
+							<h7>Various scripts and tools built to do well in a Capture the Flag event for the Software Security class
+							
+							<ul>
+								<li>Built tools and scripts to prevent various cyber security attacks like Buffer overflow, Path, SQL injection and Format string for a capture the flag event competing against other teams.</li>
+								<li>Implemented a model to find XSS vulnerabilities in a website and automated XSS attacks, SQL injections on the other teams.</li>
+							</ul> </h7>
+							
+							
+						</div>
+					</div>
+				</div>
+				<hr id="hr-code">
+				<!-- PROJECT ENDS -->
+				<!-- PROJECT BEGINS-->
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						
+						<div class ="container text-right">
+							<h5>Feb – May 2016</h5>
+							<h6>Technologies:</h6> <code>Python, Matlab</code>
+							<br><a href="https://github.com/khannasarthak/Stuttered-Speech-recognition" target="blank">Code Repository : <i class="fab fa-github"></i></a>
+						</div>
+					</div>
+					
+					<div class="col-md-8 col-sm-12">
+						<div class ="container text-left">
+							<h5 id="stutter"><strong>Stuttered Speech Recognition</strong></h5>
+							<h7>A project which eliminated stutter from a voice sample and recognised it
+							
+							<ul>
+								<li>Modified an existing algorithm to facilitate speech recognition for people suffering from stuttering</li>
+								<li>Performed audio processing and stutter removal in Matlab</li>
+								<li>Designed a neural network to learn from training samples to remove stutter from new test inputs in python, this new audio was then passed to the Google speech API to be recognized without the stutter.</li>
+							</ul> </h7>
+							
+							
+						</div>
+					</div>
+				</div>
+				<hr id="hr-code">
+				<!-- PROJECT ENDS -->
+				
+				
+				<!-- ---------------------------------------------------------OTHER PROJECTS----------------------------------- -->
+				<div class="row" id="other">
+					<div class="col-md-6 col-sm-6">
+						<h4 class="text-left"><strong>Other Projects</strong></h4>
+						<ul>
+							<li><a href="#one">Activity Determining Android App</li></a>
+							<li><a href="#two">Real Time Accelerometer Plotting</li></a>
+							<li><a href="#three">Ubuntu Daily Wallpaper changer</li></a>
+							<li><a href="#four">Ubuntu cryptocurrency ticker</li></a>
+							<li><a href="#five">IP Packet Reflector</li></a>
+							<li><a href="#six">Digit recognition using Matlab</li></a>
+							
+						</ul>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<ul>
+							<br>
+							<li><a href="#seven">Polygone - Internet of Things</li></a>
+							<li><a href="#eight">Web Development: RNR</li></a>
+							<li><a href="#nine">Home Automation System</li></a>
+							<li><a href="#ten">Game Development using Unreal Engine 4</li></a>
+							<li><a href="#eleven">Game Development using Unreal Development Kit</li></a>
+							<li><a href="#twelve">Propeller Clock</li></a>
+							<li><a href="#thirteen">Notifier and Connectifier</li></a>
+						</ul>
+					</div>
+				</div>
+				<hr id="hr-code">
+				<!-- PROJECT BEGINS-->
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<div class ="container text-right">
 							<h5>Oct 2017</h5>
 							<h6>Technologies:</h6> <code>Java, Android Studio, libsvm</code>
 							<br><a href="https://github.com/khannasarthak/DetermineActivityApp" target="blank">Code Repository : <i class="fab fa-github"></i></a>
@@ -167,7 +294,7 @@
 					
 					<div class="col-md-8 col-sm-12">
 						<div class ="container text-left">
-							<h5><strong>Activity Determining Android App</strong></h5>
+							<h5 id="one"><strong>Activity Determining Android App</strong></h5>
 							<h7>An android app to determine whether the user jumped, walked or ran using machine learning
 							
 							<ul>
@@ -194,7 +321,7 @@
 					
 					<div class="col-md-8 col-sm-12">
 						<div class ="container text-left">
-							<h5><strong>Real Time Accelerometer Plotting</strong></h5>
+							<h5 id="two"><strong>Real Time Accelerometer Plotting</strong></h5>
 							<h7>An android app to plot users real time accelerometer data with syncing
 							
 							<ul>
@@ -221,7 +348,7 @@
 					
 					<div class="col-md-8 col-sm-12">
 						<div class ="container text-left">
-							<h5><strong>Ubuntu Daily Wallpaper changer</strong></h5>
+							<h5 id="three"><strong>Ubuntu Daily Wallpaper changer</strong></h5>
 							<h7>A script that sets the desktop wallpaper as the bing image of the day
 							
 							<ul>
@@ -248,7 +375,7 @@
 					
 					<div class="col-md-8 col-sm-12">
 						<div class ="container text-left">
-							<h5><strong>Ubuntu cryptocurrency ticker</strong></h5>
+							<h5 id="five"><strong>Ubuntu cryptocurrency ticker</strong></h5>
 							<h7>A ticker that shows cryptocurreny portfolio value as a desktop notification after a set interval of time
 							
 							<ul>
@@ -268,34 +395,7 @@
 					<div class="col-md-4 col-sm-12">
 						
 						<div class ="container text-right">
-							<h5>Apr – May 2017</h5>
-							<h6>Technologies:</h6> <code>Python, PHP, HTML5, JavaScript, MySQL, C</code>
-							<br><em>Code unavailable due to academic restrictions</em>
-						</div>
-					</div>
-					
-					<div class="col-md-8 col-sm-12">
-						<div class ="container text-left">
-							<h5><strong>Capture the Flag(CTF) Software Security Model</strong></h5>
-							<h7>Various scripts and tools built to do well in a Capture the Flag event for the Software Security class
-							
-							<ul>
-								<li>Built tools and scripts to prevent various cyber security attacks like Buffer overflow, Path, SQL injection and Format string for a capture the flag event competing against other teams.</li>
-								<li>Implemented a model to find XSS vulnerabilities in a website and automated XSS attacks, SQL injections on the other teams.</li>
-							</ul> </h7>
-							
-							
-						</div>
-					</div>
-				</div>
-				<hr id="hr-code">
-				<!-- PROJECT ENDS -->
-				<!-- PROJECT BEGINS-->
-				<div class="row">
-					<div class="col-md-4 col-sm-12">
-						
-						<div class ="container text-right">
-							<h5>Feb 2017</h5>
+							<h5 >Feb 2017</h5>
 							<h6>Technologies:</h6> <code>Python, Scapy, Wireshark, tcpdump</code>
 							<br><a href="https://github.com/khannasarthak/SoftwareSecurity/tree/master/Packet%20Reflector" target="blank">Code Repository : <i class="fab fa-github"></i></a>
 						</div>
@@ -303,7 +403,7 @@
 					
 					<div class="col-md-8 col-sm-12">
 						<div class ="container text-left">
-							<h5><strong>IP Packet Reflector</strong></h5>
+							<h5 id="five"><strong>IP Packet Reflector</strong></h5>
 							<h7>Built an IP packet reflector that will reflect all the packets being sent to a particular IP (the victim) back to the attacker, thus acting like a mirror.
 							
 							<ul>
@@ -317,6 +417,7 @@
 				</div>
 				<hr id="hr-code">
 				<!-- PROJECT ENDS -->
+				
 				
 				
 			</div>
@@ -347,8 +448,6 @@
 	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-
 	<script>
 		$(window).scroll(function() {
 	if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
@@ -368,7 +467,5 @@
 	$('[data-toggle="tooltip"]').tooltip()
 	})
 	</script>
-
-
 </body>
 </html>
